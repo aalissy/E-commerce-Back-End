@@ -39,7 +39,7 @@ Product.init(
         isNumeric: true,
       },
     },
-    // Defines category id as an integer, and references the category model using the id as the key
+    // Defines category id as an integer and references the category model using the id as the key
     category_id: {
       type: DataTypes.INTEGER,
       references: {
